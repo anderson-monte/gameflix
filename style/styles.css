@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Elementos do topo*/
+body {
+    background-color: gray;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header .conteiner {
+    background-color: gray;
+}
+
+header .logo {
+    color: red;
+    font-family: 'Arial Black', 'Times';
+    font-size: 50px;
+    text-decoration: none;
+}
+
+header nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+header nav a {
+    color: rgb(49, 51, 50);
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+header nav a:hover {
+    color: #ffff;
+}
+
+/* Elementos do jogo principal*/
+.jogo-em-alta {
+    font-size: 15px;
+    background-image: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url('/img/horizonforbiddenwest.jpg');
+    height: 550px;
+
+ 
+    background-size:cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-content: center;
+}
+
+.jogo-em-alta .conteiner {
+    margin-left: 60px;
+    width: 70%;
+}
+
+.jogo-em-alta .conteiner .titulo {
+    color: blanchedalmond;
+    margin-bottom: 20px;
+    font-size: 35px;
+}
+
+.jogo-em-alta .conteiner .descricao {
+    color: blanchedalmond;
+    margin-bottom: 40px;
+    font-size: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.botoes {
+    margin-bottom: 15px;
+}
+
+.botao {
+    background-color: rgba(240, 248, 255, 0);
+    color: white;
+    border-radius: 50%;
+    border-color: white;
+    padding: 10px 20px;
+    margin-right: 15px;
+    font-family: 10px;
+
+    cursor: pointer;
+}
+
+.botao:hover {
+    background-color: rgb(2, 2, 102);
+}
+
+.conteiner {
+    margin-left: 15px;
+}
+
+.box-jogos {
+    height: 260px;
+    width: 340px;
+    box-sizing: border-box;
+    display: block;
+}
+
+.carrossel-jogos {
+    background-color: white;
+}
+
+.item {
+    margin-top: 15px;
+}
+
+.rodape {
+    background-color: gray;
+    font-weight: bold;
+    text-align: center
+}
+
+.texto-rodape {
+    margin-top: 30px;
+}
