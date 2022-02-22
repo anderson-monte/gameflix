@@ -14,9 +14,9 @@
 </head>
 <body>
     <header>
-        <div class="conteiner">
+        <div class="conteiner-header">
+            <a href="index.html" style="text-decoration: none"><h2 class="logo" title="HOME">GAMEFLIX</h2></a>
             <nav>
-                <a href="#"><h2 class="logo" title="HOME">GAMEFLIX</h2></a>
                 <a href="#" title="Playstation"><img style="width:30px;height:20px" src="img/logos/pslogo.png"></a>
                 <a href="#" title="Xbox"><img style="width:60px;height:20px" src="img/logos/xboxlogo.png"></a>
                 <a href="#" title="Nitendo"><img style="width:60px;height:40px" src="img/logos/Nintendo-Logo-1970-1975.png"></a>
@@ -26,17 +26,24 @@
     </header>
     
     <main>
-        <div class="jogo-em-alta" >
-            <div class="conteiner">
-                <h3 class="titulo">Acenda sobre nossa ruína</h3>
-                <p class="descricao">Junte-se a Aloy e explore a Forbidden West, uma fronteira repleta de encantos e perigos que esconde ameaças novas e misteriosas.</p>
-                <div class="botoes">
-                    <button role="button" class="botao">
-                        Jogar
-                    </button>
-                    <button role="button" class="botao">
-                        Saiba Mais
-                    </button>
+        <div class="conteiner-em-alta" >
+            <div class="jogo-em-alta">
+                <div class="body-jogo-em-alta">
+                         <div class="informacao-jogo">  
+                                <h3 class="titulo">Acenda sobre nossa ruína</h3>
+                                <p class="descricao">Junte-se a Aloy e explore a Forbidden West, uma fronteira repleta de encantos e perigos que esconde ameaças novas e misteriosas.</p>
+                                <div class="botoes">
+                                    <button role="button" class="botao">
+                                        Jogar
+                                    </button>
+                                    <button onclick="carregarYouTube()" role="button" class="botao">
+                                        Saiba Mais 
+                                    </button>
+                                </div>
+                        </div>  
+                        <div id="youtube" class="video-youtube">
+                            
+                        </div>
                 </div>
             </div>
         </div>
@@ -62,6 +69,7 @@
     <script src="js/owl/jquery.min.js"></script>
     <script src="js/owl/owl.carousel.min.js"></script>
     <script src="js/owl/setup.js"></script>
+    <script src="js/scripts.js"></script>
 
 </body>
 </html> 
