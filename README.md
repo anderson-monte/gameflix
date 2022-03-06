@@ -3,7 +3,7 @@
 [![CSS](https://img.shields.io/badge/CSS-purple?style=flat&logo=css3)]()
 [![JS](https://img.shields.io/badge/JAVASCRIPT-yellow?style=flat&logo=javascript&logoColor=white)]()
 
-Pequeno front de um projeto feito para um desafio da DIO.
+Pequeno front de um projeto feito para um desafio de um bootcamp da [DIO](https://www.dio.me/).
 
 Nele faço uma possível homepage de um sistema de cloudgamming. 
 
